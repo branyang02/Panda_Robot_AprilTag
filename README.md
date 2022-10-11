@@ -172,10 +172,9 @@
 
 <!-- Distance -->
 ## Detecting distance between two objects (tags)
-    ```sh
-    rosrun apriltag_ros location.py
-    ```
-
+```sh
+rosrun apriltag_ros location.py
+```
 
 
 

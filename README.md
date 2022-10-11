@@ -175,6 +175,8 @@
 ```sh
 rosrun apriltag_ros location.py
 ```
+location.py calculates the distance between "/tag_22" and "/Small Block".
+
 
 
 

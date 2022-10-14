@@ -86,7 +86,7 @@
 
     _When you click on the "Save" button after a succesfull calibration, the data (calibration data and images used for calibration) will be written to /tmp/calibrationdata.tar.gz._
 
-## Usage
+## Configuration
 1. **Using AprilTag_Ros and Detecting AprilTags**
     1. go to /apriltag_ros/apriltag_ros/config and configure **settings.yaml** and **tags.yaml**.
     
@@ -174,6 +174,7 @@
 <!-- Distance -->
 ## Detecting distance between two objects (tags)
 ```sh
+chmod +x location.py
 rosrun apriltag_ros location.py
 ```
 location.py calculates the distance between "/tag_22" and "/Small Block".

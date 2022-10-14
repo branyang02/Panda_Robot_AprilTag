@@ -119,14 +119,16 @@
                   name: 'my_bundle',
                   layout:
                     [
-                      {id: 0, size: 0.05, x: 0.0000, y: 0.0000, z: 0.0, qw: 1.0, qx: 0.0, qy: 0.0, qz: 0.0},
-                      {id: 4, size: 0.05, x: 0.0548, y: -0.0522, z: 0.0, qw: 1.0, qx: 0.0, qy: 0.0, qz: 0.0},
-                      {id: 3, size: 0.05, x: -0.0580, y: -0.0553, z: 0.0, qw: 1.0, qx: 0.0, qy: 0.0, qz: 0.0},
-                      {id: 2, size: 0.05, x: 0.0543, y: 0.0603, z: 0.0, qw: 1.0, qx: 0.0, qy: 0.0, qz: 0.0},
-                      {id: 1, size: 0.05, x: -0.0582, y: 0.0573, z: 0.0, qw: 1.0, qx: 0.0, qy: 0.0, qz: 0.0}
+                      {id: 0, size: 0.03, x: 0.00, y: 0.00, z: 0.02, qw: 1.0, qx: 0.0, qy: 0.0, qz: 0.0},
+                      {id: 1, size: 0.03, x: 0.02, y: 0.00, z: 0.00, qw: 0.7071, qx: 0.0, qy: 0.7071, qz: 0.0},
+                      {id: 2, size: 0.03, x: 0.00, y: 0.00, z: -0.02, qw: 0.0, qx: 0.0, qy: 1.0, qz: 0.0},
+                      {id: 3, size: 0.03, x: -0.02, y: 0.00, z: 0.00, qw: 0.7071, qx: 0.0, qy: -0.7071, qz: 0.0},
+                      {id: 4, size: 0.03, x: 0.00, y: 0.02, z: 0.00, qw: 0.7071, qx: -0.7071, qy: 0.0, qz: 0.0},
+                      {id: 5, size: 0.03, x: 0.00, y: -0.02, z: 0.00, qw: 0.7071, qx: 0.7071, qy: 0.0, qz: 0.0},
                     ]
                 }
               ]
+              
               ```
               ![Image from iOS](https://user-images.githubusercontent.com/107154811/193395390-64fb8e61-8caa-4620-9a18-d40dadf45851.jpg)
         3. Go to apriltag_ros/apriltag_ros/launch, add the following lines to **continuous_detection.launch**
